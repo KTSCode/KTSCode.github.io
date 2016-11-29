@@ -70,7 +70,7 @@ ul.topnav {
 /* Float the list items side by side */
 ul.topnav li {float: left;}
 
-@media (max-width: 850px) {
+@media (max-aspect-ratio: 4/3 ) {
   ul.topnav.center li {float: none;}
   ul.topnav.center li a {
     padding: 2vw;
