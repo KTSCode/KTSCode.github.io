@@ -62,22 +62,23 @@ a {
 ul.topnav {
   list-style-type: none;
   display: inline-block;
-  /*margin-left: 0;*/
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 
 /* Float the list items side by side */
 ul.topnav li {float: left;}
+ul.topnav.center li {float: none;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
-    text-align: center;
+    /*text-align: center;*/
     padding: 0 2vw;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 /* Change background color of links on hover */
@@ -88,7 +89,7 @@ ul.topnav li a:hover {
 }
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+/*ul.topnav li.icon {display: none;}*/
 
 
 #current {
@@ -108,26 +109,32 @@ div#content {
   background-color: #333;
   border-radius: 2vw;
   opacity: 0.8;
-  margin: 3vw;
-  padding: 2vw;
+  margin: 8vw;
+  padding: 3vw 5vw;
 }
 
 #content h1 {
   text-align: left;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 #content h2 {
   text-align: left;
-  font-size: 2.2vw;
+  font-size: 2vw;
   color: #eee;
 }
 
 #content p {
   color:#aaa;
   text-align: left;
-  font-size: 2vw;
-  line-height: 3vw
+  font-size: 1.5vw;
+  line-height: 3vw;
+  padding-bottom: 5vw;
+}
+
+img.bio-image {
+  height: 13vw;
+  width: 13vw;
 }
 
 .glow {
