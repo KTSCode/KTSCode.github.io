@@ -69,7 +69,15 @@ ul.topnav {
 
 /* Float the list items side by side */
 ul.topnav li {float: left;}
-ul.topnav.center li {float: none;}
+
+@media (max-width: 850px) {
+  ul.topnav.center li {float: none;}
+  ul.topnav.center li a {
+    padding: 2vw;
+    font-size: 6vw;
+    color: white;
+  }
+}
 
 /* Style the links inside the list items */
 ul.topnav li a {
@@ -88,10 +96,6 @@ ul.topnav li a:hover {
   -webkit-text-fill-color: #7C7;
 }
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-/*ul.topnav li.icon {display: none;}*/
-
-
 #current {
     display: inline-block;
     color: #f2f2f2;
@@ -109,7 +113,7 @@ div#content {
   background-color: #333;
   border-radius: 2vw;
   opacity: 0.8;
-  margin: 8vw;
+  margin: 4vw 8vw;
   padding: 3vw 5vw;
 }
 
