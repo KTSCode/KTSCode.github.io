@@ -115,6 +115,7 @@ div#content {
   opacity: 0.8;
   margin: 4vw 8vw;
   padding: 3vw 5vw;
+  font-size: 1.5vw;
 }
 
 #content h1 {
@@ -135,19 +136,49 @@ div#content {
 }
 
 #content p {
-  color:#aaa;
-  text-align: left;
-  font-size: 1.5vw;
+  color:#fff;
+  text-align: justify;
   line-height: 3vw;
+  letter-spacing: 0.3vw;
+  font-size: 1.5vw;
 }
-
-#content li {
-  text-align: left;
-  margin: 2vw 0;
+#content p strong{
+  color: #dfd;
+  font-weight: 900;
+  font-size: 1.7vw;
+  padding-right: 1vw;
 }
 
 #content p.para {
   padding-bottom: 5vw;
+}
+
+#content li {
+  color: white;
+  text-align: left;
+  margin: 2vw 0;
+  font-size: 2vw;
+}
+
+#content a {
+  float: none;
+  font-size: 2vw;
+  border-bottom: 1px solid #e2ffe2;
+  color: white;
+}
+
+#content a i {
+  color: #ada;
+  padding: 0 0.5vw 0 0.2vw;
+}
+
+/* Change background color of links on hover */
+#content a:hover {
+  color: rgba(200, 255, 200, 0.1);
+  border-bottom-color: rgba(200, 255, 200, 0.7);
+  text-shadow: 0 0 3px rgba(157, 208, 154, 0.3);
+  -webkit-text-fill-color: #7C7;
+  cursor: pointer;
 }
 
 img.character-sprite {
